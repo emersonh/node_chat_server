@@ -78,7 +78,7 @@ function processCommand(command, client) {
 		case "sad":
 			broadcast(":(", client);
 			break;
-		case "info";
+		case "info":
 			client.write("Your name is currently " + client.name + "\n");
 		default:
 			client.write("!" + command[0] + " is not a valid command. Please use !commands to see a command list.\n");
